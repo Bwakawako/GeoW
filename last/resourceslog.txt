@@ -1,0 +1,1 @@
+GameState::GetInstance()->GetElapsedTime() = 7.99838

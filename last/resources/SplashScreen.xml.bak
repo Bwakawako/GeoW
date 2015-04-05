@@ -1,0 +1,3 @@
+<Entities Name="Root">
+  <MySprite name="splashscreen" pos="0,0" size="1024,7682" texture="logo.jpg" coordTexture="0, 0, 1024, 768" />
+</Entities>

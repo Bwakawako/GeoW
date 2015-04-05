@@ -1,0 +1,31 @@
+<Entities Name="Root">
+  <Spaceship Name="spaceship" Pos="512;300" MySprite="resources\sprites\SpaceshipSprite.xml" Speed="300" Lifes="3" Shield="false" Bomb="1" >
+    <SimpleGun MySprite="resources\sprites\SimpleGun.xml" Speed="650" Power="10" />
+  </Spaceship>
+  <TextBlock  Name="score" String="0" Pos="100;20" TextSize="20" Color="255;255;255" Font="resources\fonts\Molot-webfont.ttf" />
+
+  <Enemy Name="diamond1" Pos="540;600" HP="10" MySprite="resources\sprites\DiamondSprite.xml" Speed="200" SpawnDelay="0" />
+  <Enemy Name="diamond2" Pos="560;600" HP="10" MySprite="resources\sprites\DiamondSprite.xml" Speed="200" SpawnDelay="0" />
+  <Enemy Name="diamond3" Pos="580;600" HP="10" MySprite="resources\sprites\DiamondSprite.xml" Speed="200" SpawnDelay="0" />
+  <Enemy Name="diamond4" Pos="510;600" HP="10" MySprite="resources\sprites\DiamondSprite.xml" Speed="200" SpawnDelay="0" />
+
+  <Enemy Name="diamond1" Pos="40;400" HP="10" MySprite="resources\sprites\DiamondSprite.xml" Speed="200" SpawnDelay="1" />
+  <Enemy Name="diamond2" Pos="60;400" HP="10" MySprite="resources\sprites\DiamondSprite.xml" Speed="200" SpawnDelay="1" />
+  <Enemy Name="diamond3" Pos="80;400" HP="10" MySprite="resources\sprites\DiamondSprite.xml" Speed="200" SpawnDelay="1" />
+  <Enemy Name="diamond4" Pos="100;400" HP="10" MySprite="resources\sprites\DiamondSprite.xml" Speed="200" SpawnDelay="1" />
+
+  <Enemy Name="diamond5" Pos="140;400" HP="10" MySprite="resources\sprites\DiamondSprite.xml" Speed="200" SpawnDelay="4" />
+  <Enemy Name="diamond6" Pos="160;400" HP="10" MySprite="resources\sprites\DiamondSprite.xml" Speed="200" SpawnDelay="4" />
+  <Enemy Name="diamond7" Pos="180;400" HP="10" MySprite="resources\sprites\DiamondSprite.xml" Speed="200" SpawnDelay="4" />
+  <Enemy Name="diamond8" Pos="1100;400" HP="10" MySprite="resources\sprites\DiamondSprite.xml" Speed="200" SpawnDelay="4" />
+
+  <Enemy Name="diamond9" Pos="240;400" HP="10" MySprite="resources\sprites\DiamondSprite.xml" Speed="200" SpawnDelay="8" />
+  <Enemy Name="diamond10" Pos="260;400" HP="10" MySprite="resources\sprites\DiamondSprite.xml" Speed="200" SpawnDelay="8" />
+  <Enemy Name="diamond11" Pos="280;400" HP="10" MySprite="resources\sprites\DiamondSprite.xml" Speed="200" SpawnDelay="8" />
+
+  <Enemy Name="square1" Pos="800;100" HP="10" MySprite="resources\sprites\SquareSprite.xml" Speed="200" SpawnDelay="8" />
+  <Enemy Name="square2" Pos="900;300" HP="10" MySprite="resources\sprites\SquareSprite.xml" Speed="200" SpawnDelay="8" />
+  <Enemy Name="square3" Pos="900;500" HP="10" MySprite="resources\sprites\SquareSprite.xml" Speed="200" SpawnDelay="8" />
+  <Enemy Name="square4" Pos="900;700" HP="10" MySprite="resources\sprites\SquareSprite.xml" Speed="200" SpawnDelay="8" />
+
+</Entities>

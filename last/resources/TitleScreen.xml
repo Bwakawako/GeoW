@@ -1,0 +1,4 @@
+<Entities Name="Root" >
+  <MySprite Name="MainMenuScreen" Pos="0;0" Size="1024;7682" Texture="resources\textures\Mainmenu.png" TexturePos="0;0" TextureSize="1024;768" />
+  <Button Name="Play" Pos="0;145" Size="380;1023" />
+</Entities>
